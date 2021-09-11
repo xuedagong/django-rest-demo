@@ -1,0 +1,11 @@
+
+### api
+GET http://localhost:8000/demo
+Cookie: fp_ver=4.5.2; BSFIT_EXPIRATION=1590211798870; BSFIT_OkLJUJ=FFKlzvCi0z5X-N3Kax4JCkuzYeyHjWPO; BSFIT_DEVICEID=QaXSpTo6halgjBZqqcpz53wnyXCFQCmtHtm3lJLzRlI1lF0MQsW7I2VDtypFfp8UWz_n-MgahxkyER876PJ_qk_w1zN-z3AYGg8wY0a2ySxfhot-To1bG5gpFnrYo-Ldt7lD00o9msDb9yV8n0vFQYdt9nOUCBL8; _fin_track_normal_id=334f58d4-d12a-4b2a-9c51-18f8889446c9; chumBUid=16115637888491wrb3n0mur; tabstyle=html-tab; csrftoken=gK5hI02TMIhGkCbMwpTYzplfOl54xSHpphEef0jsAGEhRLCfUIZlOm9GR9QS0yZH; sessionid=ihgnesn5rqx5yvtk6m876s29gh72k5ii
+
+
+
+### login
+POST http://localhost:8000/login
+
+username=xuedagong&password=wwwgo123
