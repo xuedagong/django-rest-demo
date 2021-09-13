@@ -14,3 +14,8 @@ class MusicViewSet(APIView):
 @api_view(['GET', 'PUT', 'DELETE'])
 def snippet_detail(request):
     return Response({"message": "somessss"}, status=status.HTTP_200_OK)
+
+
+@api_view(['GET', 'PUT', 'DELETE'])
+def snippet_item_detail(request,pk):
+    return Response({"message": "somessss"+str(pk)}, status=status.HTTP_200_OK)

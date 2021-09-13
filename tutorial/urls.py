@@ -20,7 +20,7 @@ from rest_framework import routers
 from tutorial.quickstart import views
 from tutorial.quickstart.controller import demo
 from music.views import MusicViewSet
-from music.views import snippet_detail
+from music import views as myView
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
@@ -33,5 +33,6 @@ urlpatterns = [
     path('demo', include('tutorial.quickstart.urls')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('music', MusicViewSet.as_view()),
-    path('music/me', snippet_detail),
+    path('music/me', myView.snippet_detail),
+    path('music/me/<int:pk>', myView.snippet_item_detail),
 ]

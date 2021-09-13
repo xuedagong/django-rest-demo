@@ -18,3 +18,7 @@ GET  http://localhost:8000/music?some=xuedagong
 
 ### music
 GET  http://localhost:8000/music/me
+
+
+### music
+GET  http://localhost:8000/music/me/1234
