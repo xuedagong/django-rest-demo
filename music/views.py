@@ -9,6 +9,10 @@ class MusicViewSet(APIView):
         print(request.query_params)
         return Response({"message": "From music"}, status=status.HTTP_200_OK)
 
+    def post(self,request):
+        return Response({"message": "From music method post"}, status=status.HTTP_200_OK)
+
+
 
 
 @api_view(['GET', 'PUT', 'DELETE'])

@@ -5,9 +5,16 @@
 ### 音乐 列表
 GET  {{baseUrl}}/music
 
+### 音乐 列表
+POST  {{baseUrl}}/music
+
 
 ### some
 GET {{baseUrl}}/music/me
+
+
+### some
+POST  {{baseUrl}}/music/me
 
 ### 参数只能是数字
 GET {{baseUrl}}/music/me/123
