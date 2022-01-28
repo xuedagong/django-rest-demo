@@ -1,6 +1,8 @@
 
 本系统是基于dajango3.2的版本来实现的，太高的版本会存在问题 例如4.0的
 
+username/passwd admin/wwwgo
+
 ## 鉴权
 
 

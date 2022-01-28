@@ -1,0 +1,13 @@
+### 这个一些接口调用的说明
+@baseUrl= http://localhost:8000
+
+
+### 音乐 列表
+GET  {{baseUrl}}/music
+
+
+### some
+GET {{baseUrl}}/music/me
+
+### 参数只能是数字
+GET {{baseUrl}}/music/me/123
